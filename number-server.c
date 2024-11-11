@@ -1,6 +1,6 @@
 #include "http-server.h"
 #include <string.h>
-
+// THis line is to test something with Makefile
 int num = 0;
 
 char const HTTP_404_NOT_FOUND[] = "HTTP/1.1 404 Not Found\r\nContent-Type: text/plain\r\n\r\n";
